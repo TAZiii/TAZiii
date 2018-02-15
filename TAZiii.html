@@ -1,1 +1,88 @@
-<h1>The circle of life continues.</h1>
+<!DOCTYPE html>
+<head>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+  body{ 
+      background: black; 
+    }
+    header {
+      text-align: center;
+      background: url('http://www.modern-notoriety.com/wp-content/uploads/2017/06/supreme-louis-vuitton.jpg');
+      background-size: cover;
+      color: black; 
+    }
+    a {
+      color: turquoise;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    img {
+      margin: 50px 5px 5px 5px;
+      border: 7px solid white;
+      border-radius: 20px;
+      
+    }
+    ul {
+      padding: 10px;
+      background: rgba(10,0,5,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px; 
+    }
+    article {
+      max-width: 400px;
+      padding: 40px;
+      margin: 0 auto;
+      color: red;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 25px;
+        padding: 10px;
+    } 
+    
+      li {
+        padding: 12px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/14288052_1278507432193311_235277154_n.jpg?ig_cache_key=MTMzODY4MTk4ODE3NzM1MzA4NQ%3D%3D.2">
+    <h1>Tazi's Thoughts</h1>
+    <ul>
+      <li><a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjg_o3D9tzYAhUDmuAKHd7PBUwQjRwIBw&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Ffast%2520food%2F&psig=AOvVaw0kQ75jlYYuiCa-nAIN2ZcA&ust=1516207244655777" target="_blank">the best</a></li>
+      <li><a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjFlZ7r99zYAhXKUd8KHZ61BI0QjRwIBw&url=https%3A%2F%2Fwww.thelocal.it%2F20170719%2Fserving-frozen-food-without-telling-customers-menu-fraud-rules-top-italian-cassation-court&psig=AOvVaw0kQ75jlYYuiCa-nAIN2ZcA&ust=1516207244655777" target="_blank">favorite</a></li>
+      <li><a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjz4Oj499zYAhXRl-AKHahbDuUQjRwIBw&url=https%3A%2F%2Fwww.theafronews.com%2Fjunk-food-ads-bombard-teens-putting-them-at-risk%2F&psig=AOvVaw0kQ75jlYYuiCa-nAIN2ZcA&ust=1516207244655777" target="_blank">junk</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Opinion on JGS</h2>
+    <p>The school is great. I made new friends, I am getting good grades, the teachers are great. i didn't join any sports team this year because I am still adjusting so I hope starting next year I will be more active in the school activities.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>I am having a get reunion party</h2>
+    <p>Yes, if u have heard, it is ture. I am having a reunion party with old friends from my middle school. Its just that I barely have time to gout and hangout so I am throwing a party to catch up to how they have been doing. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Population is getting out of control</h2>
+    <p>The population in the United States have been rising by a lot these days and space is running out. What will we do? Will we make a new law to stop having too many kids or will we expand territiory?</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("thanks bhai!");
+    });
+  </script>
+</body>
